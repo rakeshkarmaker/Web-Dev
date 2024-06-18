@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="bankend.php">
+        <div>
+            Name: <input type="text" name="myName">
+        </div>
+        <br>
+
+        <div>
+            Role: <input type="text" name="myRole">
+        </div>
+        <br>
+
+        <div>
+            Email: <input type="email" name="myEmail">
+        </div><br>
+
+        <div>
+            Date: <input type="date" name="myDate">
+        </div><br>
+
+        <div>
+            Bonus: <input type="number" name="myBonus">
+        </div>
+        <br>
+ 
+        
+        <div>
+            <label for="myEligibility"> Are you eligible: </label>
+            <input type="checkbox" name="myEligibility" id="myEligibility">
+        </div>
+        <br>
+        <div>
+            Gender: Male <input type="radio" name="myGender"> Female:<input type="radio" name="myGender">
+        </div>
+        <br>
+
+        <div>
+            Write about Yourself: <textarea name="myText" cols="30" rows="10">Type from here</textarea>
+        </div>
+        <br>
+
+        <div>
+             <label for="car">Choose your preffered Car Brand: </label>
+             <select name="myCar" id="car">
+                <option value="ind1">Indica</option>
+                <option value="swf">Swift
+                    
+                </option>
+             </select>
+        </div>
+        <br>
+        
+        <div>
+            <label for="favcolor">Favorite Color:</label>
+            <input type="color" id="favcolor" name="favcolor" value="#ff0000">            
+        </div>
+        <br>
+        
+        <div>
+            Rating: <input type="range" id="rate" name="myRate" min="0" max="100">
+        </div>
+        <br>
+        
+        <div>
+            Upload pdf: <input type="file" id="file" name="myFile">
+        </div>
+        <br>
+
+        <div>
+            <input type="submit" value="submit Now!">
+            <input type="reset" value="Reset">
+        </div>
+        
+        
+        
+    </form>
+    
+</body>
+</html>
+

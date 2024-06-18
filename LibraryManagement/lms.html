@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <style>
+    .img {
+      border: 1px solid #555;
+    }
+  </style>
+</head>
+
+
+<body>
+  <br>
+  <h1 align="center"></h1>Book Borrow System</h1>
+  <br>
+  <div align="center" class="img">
+    <img src="http://localhost:81/LibraryManagement\Harry-Portter 1.jpg" width="250" height="350">
+    <img src="http://localhost:81/LibraryManagement\Harry-Portter 2.jpg" width="250" height="350">
+    <img src="http://localhost:81/LibraryManagement\Harry-Portter 3.jpg" width="250" height="350">
+    <br><br>
+    <label>"Harry Porter Vol.1</label> <label>"Harry Porter Vol.1</label> <label>"Harry Porter Vol.1</label>
+    <br>
+    <img src="http://localhost:81/LibraryManagement\Harry-Portter 4.jpg" width="250" height="350">
+    <img src="http://localhost:81/LibraryManagement\Harry-Portter 5.jpg" width="250" height="350">
+    <img src="http://localhost:81/LibraryManagement\Harry-Portter 6.jpg" width="250" height="350">
+
+
+    <form action="/LibraryManagement/action.php" method="POST">
+
+      <label for="Sname">Student Name:</label><br>
+      <input type="text" id="Sname" name="Sname" value="Type your name">
+
+      <br><br>
+      <label for="Bname">Choose a Book1`:</label>
+
+      <select name="Bname" id="Bname">
+
+        <optgroup label="Harry Portter Series">
+          <option value="Harry Portter 1">Harry Portter 1</option>
+          <option value="Harry Portter 2">Harry Portter 2</option>
+          <option value="Harry Portter 3">Harry Portter 3</option>
+          <option value="Harry Portter 4">Harry Portter 4</option>
+          <option value="Harry Portter 5">Harry Portter 5</option>
+          <option value="Harry Portter 6">Harry Portter 6</option>
+
+        </optgroup>
+
+      </select>
+
+      <br><br>
+
+      <label for="Bid">Student Book ID:</label><br>
+      <input type="text" id="Bid" name="Bid" value="Type book ID">
+
+      <br><br>
+
+      <label for="borrowDate">Borrow Date:</label><br>
+      <input type="date" id="borrowDate" name="Borrow Date">
+
+      <br><br>
+
+      <input type="submit" value="Submit" name="submit">
+    </form>
+
+  </div>
+
+</body>
+
+</html>
