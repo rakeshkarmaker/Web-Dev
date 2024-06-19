@@ -1,5 +1,5 @@
 /* 5.6 - CSS Background */
-.myBackground {
+body {
 
     /* adding background image from a website link */
     background: url(https://img.freepik.com/free-vector/cyber-technology-background_23-2148390330.jpg?w=1060&t=st=1718772685~exp=1718773285~hmac=4d547b3448894330ea4d712fcebbee4c2748485d2884e36bc0ab6558c91720c1);

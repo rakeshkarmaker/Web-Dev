@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RWD Grid Page</title>
+    <style>
+        /* a * is used when we want to apply a css to all the tags */
+        * {
+            box-sizing: border-box;
+
+        }
+
+        .header {
+            border: 2px solid red;
+
+        }
+
+        .left {
+            border: 2px solid red;
+            float: left;
+            width: 30%;
+
+        }
+
+        .main {
+            border: 2px solid red;
+            float: right;
+            width: 70%;
+            padding: 10px;
+
+        }
+        
+        /* 6 4 RWD MEDIA Querry  */
+        @media only screen and (max-width:600px) {
+            body{
+                background-color: aquamarine;
+            }
+            
+        }
+
+        /* 6 5 RWD IMAGES  */
+        @media only screen and (min-width:600px) {
+            body{
+                background-image: url("backgroundimage.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <P>
+            This is a heading
+        </P>
+    </div>
+
+    <div class="left">
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi quisquam est necessitatibus laudantium
+            maiores pariatur laborum aliquam similique doloribus dicta.lopre
+        </p>
+    </div>
+
+    <div class="main">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates placeat nesciunt beatae! Sit aut nostrum
+            dolores veniam molestiae, praesentium nulla asperiores ipsa aspernatur earum eligendi voluptas, iusto enim
+            aliquam? Laboriosam necessitatibus ex deleniti est ipsa aut saepe id nulla eum.
+        </p>
+    </div>
+
+</body>
+
+</html>

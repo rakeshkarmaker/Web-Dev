@@ -1,0 +1,201 @@
+/* 5.6 - CSS Background */
+body {
+    /* adding background image from a website link */
+    background: url("https://img.freepik.com/free-vector/cyber-technology-background_23-2148390330.jpg?w=1060&t=st=1718772685~exp=1718773285~hmac=4d547b3448894330ea4d712fcebbee4c2748485d2884e36bc0ab6558c91720c1");
+
+
+    /* contain will try to keep the image aspect ratio */
+    background-size: contain;
+
+    /* making imaage to not repeat */
+    background-repeat: no-repeat;
+
+    /* Making image scroll: */
+    background-attachment: scroll;
+
+}
+
+.header{
+
+}
+.header a {
+
+    display: inline-block;
+    color: blue;
+
+    /* To remove the underline on the text href setting text decoration to none */
+    text-decoration: none;
+    font-size: 45px;
+    border: 3px solid blueviolet;
+
+    /* added space to left oustide of the border */
+    margin-left: 50px;
+
+    /* added space to top oustide of the border */
+    margin-top: 40px;
+  
+    /* Added CSS TEXT Shadow  */
+    text-shadow: 3px 3px black;
+    padding: 15px;
+}
+
+.navbar {
+    max-width: 500px;
+    border: 15px solid darkblue;
+    background-color: rgb(105, 164, 216);
+    padding: 15px;
+    margin: auto;
+    /* Added CSS FONTS  */
+    font-family: "DynaPuff", system-ui;
+
+    /* display: none; */
+
+}
+
+.navbar p{
+    text-indent: 35px;
+    text-align: center;
+
+}
+
+
+#innerLink{
+    display: block;
+    width: 150px;
+    margin: auto;
+    padding: 25px;
+    background-color: aqua;
+    border-radius:  10px 10px;
+    text-decoration: none;
+    text-align: center;
+} 
+
+#innerLink:link{
+    background-color: yellow;
+    color: black;
+}
+
+#innerLink:visited{
+    background-color: blue;
+    color: white;
+}
+
+/* Changing color when mouse hovers on the button */
+#innerLink:hover{
+    background-color: green;
+    color: black;
+}
+
+#innerLink:checked{
+    background-color: green;
+    color: white;
+}
+
+
+.listClass{
+    width: 35%;
+    margin: auto;
+    background-color: lightblue;
+    border-radius:  10px 10px;
+    padding: 50px;
+    margin-top: 100px;
+    padding: 10px;
+    
+}
+  
+
+.listClass ol li{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    padding: 10px;
+
+    
+}
+
+
+/* 5 19 CSS TABLE */
+.mytable{
+
+    padding: 200px;
+    background-color: lightgoldenrodyellow;
+    margin-top: 35px;
+    
+
+
+}
+.tableContainer{
+    width: 50%;
+    padding: 50px;
+    background-color: lightblue;
+    margin: auto;
+
+ 
+}
+.tableContainer table{
+    border: 3px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+
+}
+.tableContainer table caption{
+    border: 3px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+
+
+
+}
+.tableContainer table thead th{
+    border: 3px solid black;
+    background-color: greenyellow;
+    border-collapse: collapse;
+    padding: 10px;
+
+
+
+}
+.tableContainer table tbody tr td{
+    border: 3px solid black;
+    background-color: lightgreen;
+    border-collapse: collapse;
+    padding: 10px;
+
+
+}
+
+
+/* 5 20 CSS DISPLAY */
+    .myDisplay{
+        padding: 25px;
+        border: 3px solid rebeccapurple;
+        display: inline;
+
+    }
+
+    /* 5 21 POSITION  */
+    .myDisplay2{
+        padding: 25px;
+        background-color: aqua;
+        position: sticky ;
+        top: 0;
+
+    }
+
+
+    /* 5 22 CSS FLOAT */
+    .float{
+        border: 3px solid black;
+        overflow: auto;
+        /* float: right; */
+
+    }
+    #myImage{
+        float: left;
+    }
+
+    /* 5 23 Alignment */
+    .float p{
+        text-align: center;
+        
+
+    }
