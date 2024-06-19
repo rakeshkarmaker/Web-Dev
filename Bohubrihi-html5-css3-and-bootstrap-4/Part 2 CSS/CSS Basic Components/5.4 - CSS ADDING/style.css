@@ -1,0 +1,75 @@
+body {
+    background-color: lightblue;
+}
+
+.pCSS {
+    color: blueviolet;
+}
+
+h3 {
+    color: red;
+
+}
+
+/* Assigning CSS to a specific unique ID */
+#paragraphId {
+    color: orangered;
+}
+
+/* Making a Class that can be used to many tags (many places) */
+
+.myStyle {
+    color: red;
+    background-color: black;
+    text-align: center;
+}
+
+
+
+/* 5.5 - CSS COMMENTS  */
+
+/* This is a css comment */
+
+
+/* h1,h2,h3{
+    margin: 100;
+} */
+
+/* 5.6 - CSS Background */
+.myBackground {
+
+    /* adding background image from a website link */
+    background: url(https://img.freepik.com/free-vector/cyber-technology-background_23-2148390330.jpg?w=1060&t=st=1718772685~exp=1718773285~hmac=4d547b3448894330ea4d712fcebbee4c2748485d2884e36bc0ab6558c91720c1);
+
+
+    /* fixing background image size */
+    background-size: 1080px 750px;
+
+    /* making imaage to not repeat */
+    background-repeat: no-repeat;
+
+    /* Making image scroll: */
+    background-attachment: scroll;
+    /* image also moves with scrolling */
+    /* image remaines fixed while scorll if chosed no -> fixed */
+
+}
+
+/* 5.7 - CSS COLOR */
+
+h4 {
+    background-color: black;
+    color: rgba(255, 3, 24, 0.767);
+    text-align: center;
+}
+
+/* 5.8 - CSS BORDER */
+.cssBorder {
+    color: black;
+    border: 2px solid black;
+}
+
+.cssBorder2 {
+    color: black;
+    border: 2px dotted black;
+}

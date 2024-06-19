@@ -1,0 +1,20 @@
+p{
+    background-color: silver;
+    
+}
+
+table,td,th{
+    border: 1px solid black;
+    /* Removing spaces between lines: */
+    border-collapse: collapse;
+    /* Adding 15px space all around the text: */
+    padding: 15px;
+}
+
+myStyle{
+    border: 1px solid black;
+    /* Removing spaces between lines: */
+    border-collapse: collapse;
+    /* Adding 15px space all around the text: */
+    padding: 15px;
+}

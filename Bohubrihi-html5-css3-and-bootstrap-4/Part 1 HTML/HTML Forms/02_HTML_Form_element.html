@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <form action="" method="get">
+        <label for="username">username:</label>
+        <input type="text" id="username">
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password">
+        <br><br>
+
+        <label for="gender">Gender:</label>
+        Male <input type="radio" id="gender" name="gender" value="Male ">
+        Female <input type="radio" id="gender" name="gender" value="Female ">
+        <br><br>
+
+        <label for="gender2">Gender:</label>
+        <select name="select" id="gender2">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="LGTVVQLED+++">LGTVVQLED+++</option>
+        </select>
+        <br><br>
+
+        <textarea name="MyTextArea" id="textArea" cols="50" rows="10">
+            Insert your details here!
+        </textarea>
+        <br><br>
+
+        <!-- shortcut is=> datal -->
+
+        Location: <input type="text" list="mylist">
+        <datalist id="mylist">
+            <option value="Dhaka">Dhaka</option>
+            <option value="Barishal">Barishal</option>
+            <option value="China">China</option>
+        </datalist>
+        <br><br>
+
+        <input type="submit">
+    </form>
+    
+</body>
+</html>

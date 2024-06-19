@@ -1,0 +1,244 @@
+/* 5.6 - CSS Background */
+.myBackground {
+
+    /* adding background image from a website link */
+    background: url(https://img.freepik.com/free-vector/cyber-technology-background_23-2148390330.jpg?w=1060&t=st=1718772685~exp=1718773285~hmac=4d547b3448894330ea4d712fcebbee4c2748485d2884e36bc0ab6558c91720c1);
+
+
+    /* fixing background image size */
+    background-size: 1300px 750px;
+
+    /* making imaage to not repeat */
+    background-repeat: no-repeat;
+
+    /* Making image scroll: */
+    background-attachment: scroll;
+    /* image also moves with scrolling */
+    /* image remaines fixed while scorll if chosed no -> fixed */
+
+}
+
+
+/* 5.9 - CSS Margin */
+.header {
+    border: 5px solid black;
+
+}
+
+
+/* 
+Here, we want to customize the href a tag inside of header. so this is how we assign css to specific tags. exclusive to the tags only that inherits the css class */
+.header a {
+
+    /* as a href is an inlie element, if we add space on top or bottom, it won't work */
+    /* To resolve the issue, making the tag into a inline block. */
+    display: inline-block;
+    color: red;
+
+    /* To remove the underline on the text href setting text decoration to none */
+    text-decoration: none;
+
+    font-size: 45px;
+
+    /* margin: 50px 25px 75px 50px; */
+    margin-left: 50px;
+    /* added space to left oustide of the border */
+    margin-top: 40px;
+    /* added space to top oustide of the border */
+
+    /* 5.10 - CSS PADDING */
+    border: 3px solid red;
+    /* Paddig adds space to inside of the border */
+    padding: 25px;
+    /* or specify specifically : */
+    padding-left: 100px;
+
+    /* 5 14 CSS TEXT  */
+    text-shadow: 3px 3px black;
+}
+
+
+/* 5.11- CSS HEIGHT AND WIDTH */
+.navbar {
+    border: 15px solid darkblue;
+    /* width: 500px;
+    height: 100px; */
+    max-width: 500px;
+    width: 50%;
+    height: 50%;
+    /* 5.12- CSS BOX MODEL  */
+    background-color: rgb(105, 164, 216);
+    padding: 15px;
+    /* margin: 25px; */
+
+    /* CSS Outline */
+    outline: 1f5px solid red;
+
+    /* 5 17 CSS LINKS  */
+    margin: auto;
+
+
+}
+
+
+/* 5 14 CSS TEXT  */
+.navbar p{
+    text-indent: 35px;
+    text-align: center;
+    /* text-decoration: underline; */
+    line-height: 0.6cm;
+    letter-spacing: 2px;
+    
+    /* 5 15 CSS FONTS  */
+    font-family: "DynaPuff", system-ui;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+
+    
+
+
+}
+
+
+/* 5 17 CSS LINKS  */
+#innerLink{
+    display: block;
+    width: 150px;
+    margin: auto;
+    padding: 25px;
+    background-color: aqua;
+    border-radius:  10px 10px;
+    text-decoration: none;
+    text-align: center;
+} 
+
+#innerLink:link{
+    background-color: yellow;
+    color: black;
+}
+
+#innerLink:visited{
+    background-color: blue;
+    color: white;
+}
+
+/* Changing color when mouse hovers on the button */
+
+#innerLink:hover{
+    background-color: green;
+    color: black;
+}
+
+#innerLink:checked{
+    background-color: green;
+    color: white;
+}
+
+
+.listClass{
+    width: 35%;
+    margin: auto;
+    background-color: lightblue;
+    border-radius:  10px 10px;
+    padding: 50px;
+    margin-top: 100px;
+    padding: 10px;
+    
+}
+  
+
+.listClass ol li{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    padding: 10px;
+
+    
+}
+
+
+/* 5 19 CSS TABLE */
+
+.mytable{
+
+    padding: 200px;
+    background-color: lightgoldenrodyellow;
+    margin-top: 20px;
+
+}
+.tableContainer{
+    width: 50%;
+    margin: auto;
+    padding: 50px;
+    background-color: lightblue;
+ 
+}
+.tableContainer table{
+    border: 3px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+
+}
+.tableContainer table caption{
+    border: 3px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+
+
+
+}
+.tableContainer table thead th{
+    border: 3px solid black;
+    background-color: greenyellow;
+    border-collapse: collapse;
+    padding: 10px;
+
+
+
+}
+.tableContainer table tbody tr td{
+    border: 3px solid black;
+    background-color: lightgreen;
+    border-collapse: collapse;
+    padding: 10px;
+
+
+}
+
+
+/* 5 20 CSS DISPLAY */
+    .myDisplay{
+        padding: 25px;
+        border: 3px solid rebeccapurple;
+        display: inline;
+
+    }
+
+    /* 5 21 POSITION  */
+    .myDisplay2{
+        padding: 25px;
+        background-color: aqua;
+        position: sticky ;
+        top: 0;
+
+    }
+
+
+    /* 5 22 CSS FLOAT */
+    .float{
+        border: 3px solid black;
+        overflow: auto;
+        /* float: right; */
+
+    }
+    #myImage{
+        float: left;
+    }
+
+    /* 5 23 Alignment */
+    .float p{
+        text-align: center;
+        
+
+    }

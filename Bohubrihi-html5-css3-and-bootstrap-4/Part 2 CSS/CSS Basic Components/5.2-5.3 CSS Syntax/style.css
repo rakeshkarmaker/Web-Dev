@@ -1,0 +1,27 @@
+body{
+    background-color: lightblue;
+}
+
+p{
+    color: yellow;
+}
+
+h3{
+    color: red;
+
+}
+
+/* Assigning CSS to a specific unique ID */
+#paragraphId{
+    color: orangered;
+}
+
+/* Making a Class that can be used to many tags (many places) */
+
+.myStyle{
+    color: red;
+    background-color: black;
+    text-align: center;
+}
+
+
